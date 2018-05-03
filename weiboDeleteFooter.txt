@@ -1,0 +1,7 @@
+var index = 3;
+function rm(){
+document.getElementsByClassName("WB_feed WB_feed_v3 WB_feed_v4")[0].childNodes[index].childNodes[1].childNodes[1].childNodes[1].childNodes[2].childNodes[1].childNodes[1].childNodes[0].click();
+document.getElementsByClassName("W_layer W_layer_pop ")[0].childNodes[1].childNodes[5].childNodes[1].click();
+index++;
+}
+self.setInterval("rm()",10);
