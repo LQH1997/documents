@@ -22,4 +22,4 @@ rpm -qa | grep kernel
 //step 3
 reboot
 //step 4
-//do the install again
+//do the installation again
